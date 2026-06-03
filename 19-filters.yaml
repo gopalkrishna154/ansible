@@ -50,4 +50,4 @@
 
   - name: check ipv4 address
     debug:
-      msg: "{{ ip_address | ansible.utils.ipv4 }"
+      msg: "{{ ip_address | ansible.utils.ipv4 }}"
